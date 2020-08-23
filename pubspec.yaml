@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  dartz: ^0.9.1
   flutter:
     sdk: flutter
 
@@ -33,6 +34,8 @@ dependencies:
 
 
 dev_dependencies:
+  mockito: ^4.1.1
+  pedantic: ^1.9.0
   flutter_test:
     sdk: flutter
 
