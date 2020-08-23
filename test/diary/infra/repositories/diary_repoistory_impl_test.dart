@@ -2,9 +2,9 @@ import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 
-import 'package:dailypet/modules/diary/data/datasources/diary_datasource.dart';
-import 'package:dailypet/modules/diary/data/repositories/diary_repository_impl.dart';
-import 'package:dailypet/modules/diary/data/models/diary_model.dart';
+import 'package:dailypet/modules/diary/infra/datasources/diary_datasource.dart';
+import 'package:dailypet/modules/diary/infra/repositories/diary_repository_impl.dart';
+import 'package:dailypet/modules/diary/infra/models/diary_model.dart';
 import 'package:dailypet/modules/diary/domain/entities/diary.dart';
 import 'package:dailypet/modules/diary/domain/errors/DatasourceError.dart';
 

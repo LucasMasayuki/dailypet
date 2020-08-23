@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:dailypet/modules/diary/data/models/pet_model.dart';
+import 'package:dailypet/modules/diary/infra/models/pet_model.dart';
 import 'package:dailypet/modules/diary/domain/entities/diary.dart';
 
 class DiaryModel extends Diary {

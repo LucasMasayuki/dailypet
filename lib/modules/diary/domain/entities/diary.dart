@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:dailypet/modules/diary/data/models/pet_model.dart';
+
+import 'package:dailypet/modules/diary/infra/models/pet_model.dart';
 
 class Diary {
   @required

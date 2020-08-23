@@ -1,4 +1,4 @@
-import 'package:dailypet/modules/diary/data/datasources/diary_datasource.dart';
+import 'package:dailypet/modules/diary/infra/datasources/diary_datasource.dart';
 import 'package:dailypet/modules/diary/domain/errors/DatasourceError.dart';
 import 'package:dailypet/modules/diary/domain/interfaces/failure_get_diaries.dart';
 import 'package:dailypet/modules/diary/domain/entities/diary.dart';
