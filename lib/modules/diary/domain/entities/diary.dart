@@ -1,6 +1,5 @@
 import 'package:flutter/widgets.dart';
-
-import 'pet.dart';
+import 'package:dailypet/modules/diary/data/models/pet_model.dart';
 
 class Diary {
   @required
@@ -10,7 +9,7 @@ class Diary {
   final String title;
 
   @required
-  final Pet pet;
+  final PetModel pet;
 
   Diary(
     this.id,
