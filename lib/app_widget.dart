@@ -7,14 +7,15 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       navigatorKey: Modular.navigatorKey,
-      title: 'Caminhos da América do sul',
+      title: 'Dailypet',
       theme: ThemeData(
-          primarySwatch: Colors.indigo,
-          primaryColor: Colors.indigo,
-          backgroundColor: Colors.indigo,
-          appBarTheme:
-              AppBarTheme(color: Colors.indigo, brightness: Brightness.light),
-          scaffoldBackgroundColor: Colors.indigo),
+        primarySwatch: Colors.indigo,
+        primaryColor: Colors.indigo,
+        backgroundColor: Colors.indigo,
+        appBarTheme:
+            AppBarTheme(color: Colors.indigo, brightness: Brightness.light),
+        scaffoldBackgroundColor: Colors.indigo,
+      ),
       initialRoute: '/',
       onGenerateRoute: Modular.generateRoute,
     );
