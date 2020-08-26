@@ -890,3 +890,5 @@ DerivedData/
 
 linux
 windows
+coverage
+*.g.dart
