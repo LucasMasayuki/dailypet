@@ -3,11 +3,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 
-import 'package:dailypet/modules/authentication/domain/repositories/login_repository.dart';
-import 'package:dailypet/modules/authentication/domain/errors/errors.dart';
-import 'package:dailypet/modules/authentication/domain/interfaces/logged_user_info.dart';
-import 'package:dailypet/modules/authentication/domain/usercases/get_logged_user.dart';
-import 'package:dailypet/modules/authentication/infra/models/user_model.dart';
+import 'package:dailypet/modules/auth/domain/repositories/login_repository.dart';
+import 'package:dailypet/modules/auth/domain/errors/errors.dart';
+import 'package:dailypet/modules/auth/domain/interfaces/logged_user_info.dart';
+import 'package:dailypet/modules/auth/domain/usercases/get_logged_user.dart';
+import 'package:dailypet/modules/auth/infra/models/user_model.dart';
 
 class LoginRepositoryMock extends Mock implements LoginRepository {}
 

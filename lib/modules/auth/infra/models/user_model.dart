@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 
-import 'package:dailypet/modules/authentication/domain/entities/logged_user.dart';
-import 'package:dailypet/modules/authentication/domain/interfaces/logged_user_info.dart';
+import 'package:dailypet/modules/auth/domain/entities/logged_user.dart';
+import 'package:dailypet/modules/auth/domain/interfaces/logged_user_info.dart';
 
 class UserModel extends LoggedUser implements LoggedUserInfo {
   UserModel({

@@ -26,6 +26,7 @@ dependencies:
   equatable: ^1.2.2
   firebase_core: ^0.5.0
   firebase_auth: ^0.18.0
+  firebase_auth_platform_interface : ^2.0.1
   flutter_modular: ^2.0.0
   mobx: ^1.2.1+2
 
